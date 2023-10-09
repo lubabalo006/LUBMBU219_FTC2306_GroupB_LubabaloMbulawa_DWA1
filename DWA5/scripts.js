@@ -14,7 +14,7 @@ form.addEventListener("submit", (event) => {
     if (dividend.trim() ==="" || divider.trim() === "") {
     result.innerText = "Division not performed. Both values are required in inputs. Try again";
     }else {
-        if (divider < 0) {
+        if (divider <= 0) {
             result.innerText = "Division not performed. Invalid number provided. Try again";
             console.error("Division by negative number attempted.")
         };

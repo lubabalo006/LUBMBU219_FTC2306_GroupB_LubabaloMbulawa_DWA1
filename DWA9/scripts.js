@@ -26,18 +26,7 @@ class BookPreviewComponent extends HTMLElement {
 
         // shadow DOM content
         this.shadowRoot.innerHTML = `
-            <style>
-                /* Define component-specific styles here */
-                .preview {
-                    /* Your button styles here */
-                }
-                .preview__image {
-                    /* Your image styles here */
-                }
-                .preview__info {
-                    /* Your info styles here */
-                }
-            </style>
+      
             <button class="preview" data-preview="${id}">
                 <img class="preview__image" src="${image}" />
                 <div class="preview__info">

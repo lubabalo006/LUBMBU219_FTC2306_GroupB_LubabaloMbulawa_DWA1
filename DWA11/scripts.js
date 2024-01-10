@@ -28,7 +28,7 @@ const counter = (state = 0, action) => {
         
     }
 }
-
+//Create Store Function
 const createStore = (reducer) => {
     let state;
     const listeners = [];
